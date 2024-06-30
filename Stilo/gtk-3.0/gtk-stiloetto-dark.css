@@ -10,7 +10,7 @@
 
 .gtkstyle-fallback:hover { color: #f6f6f7; background-color: #43484b; }
 
-.gtkstyle-fallback:active { color: #f6f6f7; background-color: #131415; }
+.gtkstyle-fallback:active { color: #f6f6f7; background-color: #43484b; }
 
 .gtkstyle-fallback:disabled { color: #a5a6a7; background-color: #303335; }
 
@@ -1551,13 +1551,13 @@ infobar.info button:active:hover, infobar.info button:checked:hover, infobar.que
 
 infobar.info button:disabled, infobar.question button:disabled, infobar.warning button:disabled, infobar.error button:disabled { color: #a5a6a7; border-color: transparent; background-color: #303335; text-shadow: none; -gtk-icon-shadow: none; box-shadow: none; }
 
-infobar.info button:backdrop, infobar.question button:backdrop, infobar.warning button:backdrop, infobar.error button:backdrop { color: #b9babb; text-shadow: none; -gtk-icon-shadow: none; border-color: #131415; }
+infobar.info button:backdrop, infobar.question button:backdrop, infobar.warning button:backdrop, infobar.error button:backdrop { color: #b9babb; text-shadow: none; -gtk-icon-shadow: none; border-color: #43484b; }
 
-infobar.info button:backdrop:disabled, infobar.question button:backdrop:disabled, infobar.warning button:backdrop:disabled, infobar.error button:backdrop:disabled { color: #4f5558; text-shadow: none; -gtk-icon-shadow: none; border-color: #131415; }
+infobar.info button:backdrop:disabled, infobar.question button:backdrop:disabled, infobar.warning button:backdrop:disabled, infobar.error button:backdrop:disabled { color: #4f5558; text-shadow: none; -gtk-icon-shadow: none; border-color: #43484b; }
 
 infobar.info button:backdrop label, infobar.info button:backdrop, infobar.info button label, infobar.info button, infobar.question button:backdrop label, infobar.question button:backdrop, infobar.question button label, infobar.question button, infobar.warning button:backdrop label, infobar.warning button:backdrop, infobar.warning button label, infobar.warning button, infobar.error button:backdrop label, infobar.error button:backdrop, infobar.error button label, infobar.error button { color: #f6f6f7; }
 
-infobar.info selection, infobar.question selection, infobar.warning selection, infobar.error selection { background-color: #131415; }
+infobar.info selection, infobar.question selection, infobar.warning selection, infobar.error selection { background-color: #43484b; }
 
 infobar.info *:link, infobar.question *:link, infobar.warning *:link, infobar.error *:link { color: #98b3df; }
 
@@ -2235,7 +2235,7 @@ scrollbar.horizontal button.down:disabled { -gtk-icon-source: -gtk-scaled(url("a
 
 .gnome-panel-menu-bar button:active:hover:not(#tasklist-button), .mate-panel-menu-bar button:active:hover:not(#tasklist-button), .xfce4-panel.background button:active:hover, .gnome-panel-menu-bar button:checked:hover:not(#tasklist-button), .mate-panel-menu-bar button:checked:hover:not(#tasklist-button), .xfce4-panel.background button:checked:hover { background-color: #5a85cc; }
 
-.XfceHeading { margin: 0; padding: 0; border-width: 0; background-image: none; background-color: #131415; color: white; }
+.XfceHeading { margin: 0; padding: 0; border-width: 0; background-image: none; background-color: #43484b; color: white; }
 
 .xfce4-panel.background { background-color: #1d1f20; color: #f6f6f7; font-weight: normal; }
 
@@ -2327,7 +2327,7 @@ XfdesktopIconView.view .rubberband { border-radius: 0; }
 
 #XfceNotifyWindow.keycap { box-shadow: none; }
 
-#xfwm-tabwin { padding: 12px; background-image: none; background-color: rgba(0, 0, 0, 0.8); color: shade(#ffffff, 0.65); text-shadow: 0px 1px rgba(0, 0, 0, 0.8); border-radius: 12px; -XfwmTabwinWidget-icon-size: 64px; -XfwmTabwinWidget-preview-size: 64px; }
+#xfwm-tabwin { padding: 12px; background-image: none; background-color: #43484b; color: shade(#ffffff, 0.65); text-shadow: 0px 1px rgba(0, 0, 0, 0.8); border-radius: 12px; -XfwmTabwinWidget-icon-size: 128px; -XfwmTabwinWidget-preview-size: 256px; }
 
 #xfwm-tabwin button { background-image: none; color: #ffffff; font-weight: bold; text-shadow: 0px 1px rgba(0, 0, 0, 0.8); border: none; border-radius: 6px; box-shadow: none; }
 
