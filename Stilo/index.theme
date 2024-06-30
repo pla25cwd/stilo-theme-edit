@@ -1,0 +1,6 @@
+[X-GNOME-Metatheme]
+Name=Stilo
+Type=X-GNOME-Metatheme
+Comment=Stilo theme
+Encoding=UTF-8
+GtkTheme=Stilo

@@ -1,0 +1,6 @@
+[X-GNOME-Metatheme]
+Name=Stiloetto-dark
+Type=X-GNOME-Metatheme
+Comment=Stiloetto-dark theme
+Encoding=UTF-8
+GtkTheme=Stiloetto-dark
